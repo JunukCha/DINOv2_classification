@@ -45,6 +45,9 @@ def main(args):
 
     ax_image.imshow(np.ones((224, 224, 3)), aspect="auto")
     ax_image.axis('off')
+    
+    circle = ax_scatter.scatter(0, 0, s=10, c="k")
+    circle.set_visible(False)
 
     def hover(event):
         is_contained, annotation_index = scatter.contains(event)
@@ -53,10 +56,18 @@ def main(args):
             ax_image.clear()
             ax_image.imshow(test_images[data_index], aspect='auto')
             ax_image.axis('off')
+
+            x, y = X_2d[data_index]
+            circle.set_offsets([x, y])
+            circle.set_visible(True)
+
             fig.canvas.draw_idle()
         else:
             ax_image.imshow(np.ones((224, 224, 3)), aspect='auto')
             ax_image.axis('off')
+
+            circle.set_visible(False)
+
             fig.canvas.draw_idle()
 
     fig.canvas.mpl_connect("motion_notify_event", hover)
