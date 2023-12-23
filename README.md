@@ -36,7 +36,7 @@ Run `source scripts/tsne.sh`.
 
 You can interact in the figure by running `source scripts/tsne_interactive.sh`.
 
-<img width="80%" src="assets/interactive.mp4"/>
+<img width="80%" src="assets/interactive.gif"/>
 
 ## Results (Classification)
 Train 5 epochs.
