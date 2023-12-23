@@ -37,13 +37,9 @@ Run `source scripts/tsne.sh`.
 You can interact in the figure by running `source scripts/tsne_interactive.sh`.
 
 <p float="left">
-  <img src="assets/interactive1.jpg" alt="ResNet50 t-SNE interactive 1" style="width:48%">
-  <img src="assets/interactive2.jpg" alt="ResNet50 t-SNE interactive 2" style="width:48%">
+  <img src="assets/tsne_interactive1.jpg" alt="ResNet50 t-SNE interactive 1" style="width:48%">
+  <img src="assets/tsne_interactive2.jpg" alt="ResNet50 t-SNE interactive 2" style="width:48%">
 </p>
-
-![image](https://github.com/JunukCha/DINOv2_classification/assets/92254092/f3cf73bd-178d-466a-9cb6-26fe024f3889)
-
-![image](https://github.com/JunukCha/DINOv2_classification/assets/92254092/390c3e1b-1486-4f5a-8524-26e689a5f773)
 
 ## Results (Classification)
 Train 5 epochs.
