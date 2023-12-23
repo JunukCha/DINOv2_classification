@@ -40,6 +40,7 @@ You can interact in the figure by running `source scripts/tsne_interactive.sh`.
 
 ## Results (Classification)
 Train 5 epochs.
+You can train the classifier by running `source/main.sh`.
 
 ### Resnet 50 + Classifier head
 ```
